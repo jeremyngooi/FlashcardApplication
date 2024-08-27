@@ -1,0 +1,99 @@
+#container {
+    border :5px solid purple;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #ffffff00;
+    font-size: 24px;
+    font-family: Arial;
+    border: 1px solid #000000;
+
+}
+
+#top_bar {
+    background-color: rgb(249, 141, 249);
+}
+.screen {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 100px;
+    font-family: Arial;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 50%;
+}
+
+.flashcard {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: normal;
+    border: 1px solid #000000;
+}
+
+.flashcard:hover {
+    background-color: rgb(215, 215, 215);
+}
+
+#flashcards {
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    font-size: 24px;
+    font-family: Arial;
+    font-weight: bold;  
+    border: 1px solid #000000;
+}
+
+.button {
+    width: 150px; 
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#create, #your {
+    width: 250px; 
+    height: 50px;
+}
+
+.trash-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('trashcan.PNG');
+    background-size: cover;
+    cursor: pointer;
+    border: 3px solid black;  
+}
+
+.trash-icon:hover {
+    border-color: purple;
+}
+
+.pencil-icon {
+    width: 30px;
+    height: 30px;
+    background-image: url('pencil.png');
+    background-size: cover;
+    cursor: pointer;
+    border: 3px solid black; 
+}
+
+.pencil-icon:hover {
+    border-color: purple;
+}
+
+.flashcard-icon {
+    width: 99.5%;
+    height: 302px;
+    background-image: url('flashcard.png');
+    border: 3px solid black;  
+}
